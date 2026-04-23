@@ -1,0 +1,42 @@
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card {
+	padding: 40px 20px;
+	display: flex;
+	align-items: center;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+	justify-content: space-between;
+	border-radius: 5px;
+	margin: 10px;
+	flex-basis: 275px;
+	flex-grow: 1;
+
+
+	background-size: cover;
+	background-position: center;
+	color: white;
+
+}
+
+.card-baroque {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/card-baroque.jpg");
+
+}
+
+.card-impressionnisme {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/card-impressionnisme.jpg");
+
+}
+
+.card-cubisme {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/card-cubisme.jpg");
+
+}
+
+.card-surrealisme {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/card-surrealisme.jpg");
+}
+
